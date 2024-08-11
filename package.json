@@ -1,13 +1,17 @@
 {
-  "name": "monorepo-template",
+  "name": "sst-notes",
   "version": "0.0.0",
   "workspaces": [
     "packages/*"
   ],
   "scripts": {},
   "devDependencies": {
+    "@eslint/js": "^9.9.0",
     "@tsconfig/node20": "^20.1.4",
-    "typescript": "5.3.3"
+    "eslint": "^9.9.0",
+    "globals": "^15.9.0",
+    "typescript": "5.3.3",
+    "typescript-eslint": "^8.0.1"
   },
   "dependencies": {
     "sst": "ion"
